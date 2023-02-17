@@ -1,6 +1,10 @@
 # Questions for engineering interviews at Project Access
 
-Answer these questions briefly with your own words (1-5 sentences each). Don't worry if you can't answer all of them. Please be prepared to explain your answers during an interview (so don't just copy-paste from Google 😉).
+Answer these questions briefly with your own words (1-5 sentences each). Try to be as clear and concise as possible.
+
+Don't worry if you can't answer all of them - they are quite specific for a reason and we don't expect you to know the perfect answer.
+
+Please be prepared to explain your answers during an interview (so don't just copy-paste from Google 😉).
 
 
 ## Question 1
@@ -20,7 +24,7 @@ What is an SQL injection attack? How can you avoid it?
 
 ## Question 4
 
-With two git commands, how do you reset your local git branch to match the remote version?
+With two `git` commands, how do you reset your local branch to match the remote version? Also explain what the commands do.
 
 ## Question 5
 
@@ -28,7 +32,7 @@ What is S3 in AWS? How does it differ from a traditional file system?
 
 ## Question 6
 
-Can you explain how data compression works (using any of the existing ways it can be achieved)?
+Can you explain how data compression works and what the benefits are (using any of the existing ways it can be achieved)?
 
 ## Question 7
 
@@ -36,4 +40,13 @@ When we talk about mutability, what are we referring to exactly? How does the co
 
 ## Question 8
 
-What is a binding table in Python? And how does it relate to the `import` statement?
+What is the concept of binding (e.g. binding table)? And how does it relate to `import` statements?
+
+## Question 9
+
+Explain what the following Python code does. Also, if you can, run it and tell us what the first 5 numbers are.
+```
+for num in range(2, 101):
+    if all(num%i!=0 for i in range(2,num)):
+       print(num)
+```
