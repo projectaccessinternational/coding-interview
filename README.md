@@ -1,4 +1,4 @@
-# Questions for engineering interviews at Project Access
+# Questions for coding interviews at Project Access
 
 Answer these questions briefly with your own words (1-5 sentences each). Try to be as clear and concise as possible.
 
